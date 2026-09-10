@@ -1,6 +1,6 @@
 // ============================================================
 // 1. BANGUN STRIP INTRO — gradient acak per strip, palet brand
-// ============================================================
+// ============================================================tes
 
 const stripesContainer = document.getElementById("stripes");
 const STRIPE_COUNT = 18;
