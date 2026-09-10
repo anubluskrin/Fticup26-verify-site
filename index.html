@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Verifikasi Sertifikat — FTI Cup 26</title>
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-stripes" id="stripes"></div>
+</div>
+
+<main class="page">
+
+  <header class="topbar">
+    <img src="assets/logo.svg" alt="FTI Cup 26" class="topbar-logo">
+    <span class="topbar-name">FTI Cup 26</span>
+  </header>
+
+  <section class="stage" id="stage">
+
+    <div class="status-row" id="statusRow">
+      <span class="status-dot" id="statusDot"></span>
+      <span class="status-text" id="statusText">Memeriksa sertifikat…</span>
+    </div>
+
+    <div class="card" id="card">
+      <p class="eyebrow">Diberikan kepada</p>
+      <h1 class="name" id="certName">—</h1>
+      <p class="category" id="certCategory">—</p>
+
+      <div class="meta">
+        <div class="meta-item">
+          <span class="meta-label">Acara</span>
+          <span class="meta-value">FTI Cup 2026 UPN &ldquo;Veteran&rdquo; Yogyakarta</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">Tanggal</span>
+          <span class="meta-value">Sabtu, 12 Oktober 2026</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">ID sertifikat</span>
+          <span class="meta-value mono" id="certId">—</span>
+        </div>
+      </div>
+
+      <a href="#" id="downloadBtn" class="download-btn">
+        <span>Lihat sertifikat</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2V11M8 11L4.5 7.5M8 11L11.5 7.5M3 14H13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+
+    <div class="notfound" id="notfound">
+      <p class="notfound-title">Sertifikat tidak ditemukan</p>
+      <p class="notfound-body">Kode ini tidak cocok dengan data kami. Pastikan kamu memindai QR langsung dari sertifikat asli.</p>
+    </div>
+
+  </section>
+
+  <footer class="foot">
+    <span>FTI Cup 26 &middot; UPN &ldquo;Veteran&rdquo; Yogyakarta</span>
+  </footer>
+
+</main>
+
+<script src="assets/js/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
