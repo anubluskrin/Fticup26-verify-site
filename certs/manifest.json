@@ -1,0 +1,23 @@
+[
+  {
+    "id": "001",
+    "nama": "Budi Santoso",
+    "kategori": "1st Winner of Mobile Legends Tournament",
+    "file_png": "Budi_Santoso.png",
+    "file_pdf": "Budi_Santoso.pdf"
+  },
+  {
+    "id": "002",
+    "nama": "Siti Aminah",
+    "kategori": "2nd Runner Up of Web Design Competition",
+    "file_png": "Siti_Aminah.png",
+    "file_pdf": "Siti_Aminah.pdf"
+  },
+  {
+    "id": "003",
+    "nama": "Rangga Wijayakusuma",
+    "kategori": "Best Performance of Free Fire Tournament",
+    "file_png": "Rangga_Wijayakusuma.png",
+    "file_pdf": "Rangga_Wijayakusuma.pdf"
+  }
+]
